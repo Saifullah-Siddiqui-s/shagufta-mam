@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/Firstbg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    align-items: center;
+}
+
+
+.greet {
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Camelliani';
+    font-size: .6rem;
+    position: sticky;
+    top: 30px;
+    
+    
+}
+@font-face {
+font-family: 'Camelliani';
+src: url('Camelliani.otf') format('truetype');
+}
+
+#bday {
+    margin: 20px;
+    color:#870A30;
+    font-weight: 900;
+    filter: drop-shadow(2px 4px 5px white);
+}
+
+#name {
+    margin-top: 10px;
+    color: teal;
+    font-size: 1.2rem;
+}
+
+.quote {
+    display: flex;
+    align-content: flex-end;
+    height:max-content;
+    justify-self: flex-end;
+    backdrop-filter: blur(2px);
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+.messages {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#thanks {
+    margin: 20px;
+    margin-top: 40px;
+    text-align: center;
+    color: #870A30;
+    filter: drop-shadow(-2px 2px 3px black);
+    font-size: 2rem;
+}
+
+
+
+
+.photo2 {
+    width: 80%;
+    height: 600px;
+    background-image: url(Images/jaan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid;
+    border-radius: 16px;
+    filter: drop-shadow(2px 4px 10px);
+    margin: 0 auto;
+    transition-property: all;
+    transition-duration: 2s;
+    
+}
+
+
+
+.thankspara {
+    width: 95%;
+    display:  flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: absolute;
+    left: 3%;
+    bottom: 20px;
+    backdrop-filter: blur(3px);  
+}
+
+
+#shukriya {
+    margin-top: 4px;
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    align-self: center;
+}
+
+#flip {
+    width: 150px;
+    height: 40px;
+    background-color: teal;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 2px 2px 10px;
+    font-size: 1.2rem;
+}
+
+#flip:active {
+    background-color: skyblue;
+}
+#flip:hover {
+    background-color: skyblue;
+}
+
+#read p {
+    display: inline-block;
+    color: red;
+}
+
+#read {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;  
+}
+
+
+/* End Of CSS */
