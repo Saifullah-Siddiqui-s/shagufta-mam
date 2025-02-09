@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body {
+    overflow-x: hidden;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.memories {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading1 {
+    width: 100%;
+    height: 60px;
+    align-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 7px white;
+    margin-bottom: 10px;
+    
+}
+
+.demand {
+    width: 50%;
+    height: 45vh;
+    margin-top: 20px;
+    background-image:url(../Images/demands.jpg) ;
+    background-size: cover;
+    border-radius: 13px;
+    border: 2px solid inset;
+    position: sticky;
+    top: 30px;
+    filter: drop-shadow(2px 4px 10px white);
+}
+
+.message {
+    margin: 20px;
+    margin-top: 40px;
+    border-radius: 12px;
+    border: 2px solid white;
+    background-color: black ;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    filter: drop-shadow(2px 4px 10px white);
+    font-size: 1.1rem;
+}
+
+
+/* next page */
+
+.love {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding:10px ;
+    
+}
+
+.images {
+    width: 90%;
+    height: max-content;
+    display: grid;
+    object-fit: cover;
+    gap: 0px;
+    border-radius: 13px;
+    border: 2px solid;
+}
+
+
+.size {
+       height: 200px;
+}
+
+
+
+.box1 {
+    height:400px ;
+    background-image: url(../mohabbat1.jpg);
+    border-right: 1px solid white;
+    border-radius: 12px 0px 0px 12px;
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+  
+.box2 {
+    background-image:url(../mohabbat2.jpg) ;
+    border-bottom: 1px solid white;
+    background-size: cover;
+    border-radius: 0px 12px 0px 0px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    
+}
+  
+.box3 {
+    background-image: url(../mohabbat3.jpg) ;
+    background-size: cover;
+    border-radius: 0px 0px 11px 0px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#click {
+    margin-top: 10px;
+    width: 100%;
+    text-align:  center;
+}
+
+
+/* Answere */
+
+.answere {
+    width: 100%;
+    height: max-content;
+}
+
+.myAnswere {
+    width: 100%;
+    text-align: center;
+    box-shadow: 2px 2px 10px white;
+}
+
+.para {
+    margin-top: 40px;
+    width: 90%;
+    padding: 10px;
+    font-size: 1.2rem;
+}
